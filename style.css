@@ -1,0 +1,158 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* .first-section */
+
+.first-section {
+  display: flex;
+  margin-top: 60px;
+}
+
+/* .first-div */
+
+.first-div {
+  width: 50%;
+  margin: 30px 0 0 60px;
+  text-align: left;
+}
+
+.first-div h1 {
+  font-size: 60px;
+  color: rgb(0, 114, 0);
+}
+
+.first-div h3 {
+  color: gray;
+}
+
+.first-div a {
+  text-decoration: none;
+  color: antiquewhite;
+  background-image: linear-gradient(315deg, #087733 0%, #63d471 74%);
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 40px #22c460;
+}
+
+/* .second-div */
+
+.second-div {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.second-div img {
+  width: 100%;
+}
+
+/* second-section */
+
+.second-section {
+  background-image: url(images/deal-bg.jpg);
+  background-repeat: no-repeat;
+  padding: 200px;
+  margin-top: 80px;
+}
+
+.third-div h1 {
+    font-size: 40px;
+    color: #00441a;
+}
+
+.third-div p{
+    color: gray;
+}
+
+.third-div a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-image: linear-gradient(315deg, #087733 0%, #63d471 74%);
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #22c460;
+}
+
+/* third-section */
+
+.third-section{
+    margin-top: 50px;
+}
+
+.writing-area{
+    text-align: center;
+}
+
+.writing-area h1{
+    color: #00441a;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.writing-area p{
+    color: gray;
+}
+
+.curting-area{
+    display: flex;
+    margin: 20px 150px;
+}
+
+.first-curt{
+    width: 50%;
+    
+}
+
+.second-curt{
+    width: 50%;
+}
+
+.curting-area h1{
+    color: #087733;
+}
+
+.curting-area h4{
+    color: grey;
+}
+
+.curting-area a{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #087733;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* show-off section */
+
+.show-off{
+    display: flex;
+    margin: 200px 100px;
+    justify-content: space-around;
+    box-shadow: 10px 10px 40px #5d6460;
+    border-radius: 20px;
+}
+
+.show-off h1{
+    font-size: 40px;
+}
+
+.show-off h4{
+    color: grey;
+}
+
+footer{
+    text-align: center;
+    background-color: #087733;
+    padding: 60px;
+    color: white;
+}
+
+footer span{
+    color: rgb(255, 145, 0);
+}
